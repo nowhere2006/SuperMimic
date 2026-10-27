@@ -1,0 +1,21 @@
+/.venv/
+/.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+/output/
+/data/
+/logs/
+build/
+dist/
+*.egg-info/
+# Local credentials and machine-specific files must never be published.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/.agents/
+/.codex/
+/.aws/

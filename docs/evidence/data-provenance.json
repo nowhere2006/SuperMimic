@@ -1,0 +1,11 @@
+{
+  "dataset": "lvhaidong/LAFAN1_Retargeting_Dataset",
+  "revision": "ce1572906efe6157840e8474d5a0d7aa87481e74",
+  "preprocess_version": 2,
+  "fps": 50,
+  "clips": 40,
+  "frames": 441140,
+  "manifest_sha256": "8def4b2d2544a8d6cb6a3a6284bcb0f5f04a16fe79c32e8ea8fd1cf4933f1ca8",
+  "publication_local_npz_hashes_rechecked": true,
+  "note": "Manifest hash identifies original development artifact; regenerated manifests may differ in timing/environment metadata. Dataset and preprocessing revisions plus per-file provenance are the reproducibility contract."
+}

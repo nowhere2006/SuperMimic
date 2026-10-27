@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supermimic-study"
+version = "0.1.0"
+description = "Module-by-module SuperMimic reproduction with explicit data flow"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "mjlab @ https://codeload.github.com/mujocolab/mjlab/tar.gz/8bb2bc9e187797689ec82c78c35019afd2fd0376",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

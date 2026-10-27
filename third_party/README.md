@@ -1,0 +1,7 @@
+# Third-party provenance
+
+- mjlab fixed revision `8bb2bc9e187797689ec82c78c35019afd2fd0376`, installed as the framework dependency under its Apache-2.0 license (retained at `licenses/mjlab-LICENSE.txt`). G1 assets/actuation, physics, managers, DR APIs are reused through mjlab. Tracking-body selection and torso/yaw alignment equations follow its BeyondMimic tracking configuration; local Torch functions implement those equations for differentiable imagination. See the installed package's asset-specific notices as well.
+- CuboiLeo/SuperMimic-Reproduced fixed revision `d9be385b3eeb13a638fb33fb200d3bfd9be9839f`, MIT, Copyright (c) 2026 Yuxi Liu. Earlier state/canonical-delta layouts, goal features, scaling and initialization conventions were informed by this implementation. Its full license is retained in `licenses/SuperMimic-Reproduced-LICENSE.txt` (SHA256 `9892007d6c8f8b28c00a48557289fa42a285915cb500b5cf01ec2bb0c15f197f`). The training modules in this project are independently organized and are not the author's official release.
+- G1 LAFAN1 retargeting data source/revision and per-file checksums are retained in `data/processed/lafan1/manifest.json` and the loading documentation; data is not included in Git. No rights to redistribute dataset/assets are implied by this project.
+
+The supplied SuperMimic PDF defines the intended algorithm. Third-party choices and this project's engineering choices are separately listed in `docs/initialization-contract.md` and `docs/training-loop.md`.

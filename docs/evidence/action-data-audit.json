@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "scope": "known defects and core semantic contracts, CPU local checks; no learning-effect claim",
+  "unit_tests": 72,
+  "runs": [
+    "action-semantics-v1-data-check",
+    "action-data-v2-check",
+    "action-data-v2-resume"
+  ],
+  "transition_counts": [
+    192,
+    192,
+    160
+  ],
+  "new_data_preprocess_version": 2,
+  "new_data_manifest_sha256": "8def4b2d2544a8d6cb6a3a6284bcb0f5f04a16fe79c32e8ea8fd1cf4933f1ca8",
+  "archived_data": "data/processed/lafan1-v1",
+  "current_final_training_source_hashes_match": true,
+  "all_run_source_archives_match": true,
+  "all_recorded_action_aliases_and_previous_observation_slots_verified": true,
+  "real_exploration_actions_differ_from_policy": true,
+  "reward_reconstruction_max_abs_error": 1.1175870895385742e-08,
+  "wrong_executed_smoothing_negative_control_max_difference": 0.0021862462162971497,
+  "old_action_checkpoint_rejection": "checkpoint training configuration fields differ",
+  "mixed_data_checkpoint_rejection": "checkpoint reference data manifest differs",
+  "wm_calibration_events": [
+    1,
+    0
+  ],
+  "wm_calibration_preserved_on_resume": true,
+  "native_g1_joint_anchor_max_abs": 0.0,
+  "solver_iteration_warnings": [
+    true,
+    true,
+    false
+  ],
+  "resampling_check": "output/lafan1/resampling-v2-check.json",
+  "native_load_check": "output/lafan1/v2-load-check.json",
+  "source_verification_timing": "Historical current-source match was checked at audit time. Publication source Python hashes are separately checked below."
+}

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "clips": 40,
+  "frames": 441140,
+  "preprocess_version": 2,
+  "manifest_sha256": "8def4b2d2544a8d6cb6a3a6284bcb0f5f04a16fe79c32e8ea8fd1cf4933f1ca8",
+  "independent_max_errors": {
+    "rotation_rad": 1.1291942565912046e-07,
+    "position_m": 4.768188492931813e-07,
+    "joint_rad": 1.1920775477847201e-07,
+    "linear_velocity_m_s": 2.3788388325840515e-07,
+    "angular_velocity_rad_s": 1.6337288348822199e-06,
+    "joint_velocity_rad_s": 9.527561708466692e-07
+  },
+  "baseline_max_rotation_rad": 0.003406157738857545,
+  "baseline_manifest_sha256": "137940504e40648d7b5ea8529057a75c47ce0692661070f62e7c41a26fd6db66",
+  "oracle": "SciPy Slerp from raw source xyzw; np.interp and output-grid finite differences",
+  "scope": "all-frame root/joint interpolation and velocities; body FK separately verified by check_lafan1"
+}
